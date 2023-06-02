@@ -1,0 +1,65 @@
+:root {
+    --tiffany-blue: #75ddddff;
+    --non-photo-blue: #84c7d0ff;
+    --cool-gray: #9297c4ff;
+    --amethyst: #9368b7ff;
+    --fandango: #aa3e98ff;
+}
+
+* {
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background-color: var(--amethyst);
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding-top: 25%;
+    padding-bottom: 5%;
+}
+
+form {
+    display: block;
+    text-align: center;
+}
+
+#userBox, #passBox {
+    display: block;
+    margin: auto;
+    margin-bottom: 1%;
+    min-width: 270px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#submitForm {
+    margin-bottom: 1%;
+    border-radius: 10px;
+    background-color: var(--cool-gray);
+    color: white;
+    min-width: 275px;
+    font-size: 1rem;
+    border-style: none;
+}
+
+button{
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    background-color: var(--cool-gray);
+    color: white;
+    min-width: 275px;
+    font-size: 1rem;
+    border-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
